@@ -42,9 +42,9 @@ public class Ball : MonoBehaviour
 
         // STEP 2 -------------------------------------------------------------
         // Uncomment ONE of the below lines to ADD 0.1 to the value of 'r'.
-        r += 0.1f;
+        //r += 0.1f;
         //r * 0.1;
-        //r = r + 0.1f;
+        r = r + 0.1f;
         //r = r * 0.1f;
         //r += 0.1;
         // STEP 2 -------------------------------------------------------------
@@ -98,7 +98,7 @@ public class Ball : MonoBehaviour
 
         // This line prints the value of your new color to the Console window.
         // We'll talk more about how this line works next week also :)
-       
+       Debug.Log(newColor);
 
         // STEP 8 -------------------------------------------------------------
         // A simple way to calculate how bright a color will be is by
@@ -108,7 +108,7 @@ public class Ball : MonoBehaviour
         // Store the result in a variable named 'brightness'.
         float brightness = r + b + g;
         brightness = brightness / 3.0f;
-        Debug.Log(newColor);
+        
         // STEP 8 -------------------------------------------------------------
 
         // STEP 9 -------------------------------------------------------------
