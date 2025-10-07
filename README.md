@@ -5,7 +5,9 @@ HelloWorld!
 
 ### W2
 because the scale of r,g,b is 0-1.0, it includes decimals, so it needs float to accoplish change of colors like from 0 to 0.7.
+
 because the _bounce variable records times of ball that bounced, so we use int.
+
 i should add f after the float number when i calculate on float variable, and remember add ; after finished write one line code.
 
 ## Open-Source Assets
