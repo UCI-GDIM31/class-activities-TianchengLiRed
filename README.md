@@ -10,6 +10,9 @@ because the _bounce variable records times of ball that bounced, so we use int.
 
 i should add f after the float number when i calculate on float variable, and remember add ; after finished write one line code.
 
+### W3
+tables 9 i think the parameter(input) is int whihch is about your currentfriendship level to datermine wether level achieved required level to make friend tell their secret, and return type(output) is a string to output friend's secret, friend's secret should fromed by text so its string.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
