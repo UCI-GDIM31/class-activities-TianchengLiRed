@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class CatW5 : MonoBehaviour
@@ -8,6 +9,8 @@ public class CatW5 : MonoBehaviour
     [SerializeField] private Animator _animator;
 
     private string _isWalkingName = "IsWalking";
+
+
 
     private void Update()
     {
@@ -44,6 +47,24 @@ public class CatW5 : MonoBehaviour
         // MULTIPLY one of your vectors with a certain value to do this. >:)
 
         Vector3 translation = Vector3.zero;
+
+        float zero = Input.GetAxis("Vertical") * _moveSpeed * Time.deltaTime;
+
+
+
+        if (_flipWSControls)
+        {
+            transform.Translate(0, 0, -zero);
+        }
+        else
+        {
+            transform.Translate(0, 0, zero);
+        }
+
+     
+
+
+        
         
 
 
