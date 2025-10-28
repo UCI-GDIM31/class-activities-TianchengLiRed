@@ -1,6 +1,7 @@
 using NUnit.Framework.Internal;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.UIElements;
 
 // Write your DeerW5 class in here :)
 // Hint: if you don't remember what a class is supposed to look like,
@@ -8,12 +9,20 @@ using UnityEngine.AI;
 // If you copied the class declaration from CatW5, you'd only need to change one thing...
 public class DeerW5: MonoBehaviour
 {
-    public Vector3 vector;
-    private void Start( Collision other)
+    public NavMeshAgent agent;
+    public Transform target;
+    
+
+    private void Start()
     {
-        Vector3.MoveTowards(other.gameObject.GetComponent<NavMesh>());
-        
-    
-    
+        agent = GetComponent<NavMeshAgent>();
+        agent.SetDestination(target.position);
+
     }
+
+    
+
+   
+
+   
 }
