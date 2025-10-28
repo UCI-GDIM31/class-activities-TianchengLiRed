@@ -23,6 +23,8 @@ question: Can we make the movement curvy while we transform vectors?
 answer: Yes, but to achieve curvy movement we need to use more extended code. transform() only achieve straight movement.
 for example, using bezier to create more point object required to achieve while they are moving.
 
+plan: Deer has component of NavMeshAgent use to find way in terrain, use Getcomponent<> to set NavmeshAgent to NevMeshAgent agent variable so that i can use it on Start() then use agent.Setdesintation to set a destination for deer which is transform target variable set his position to Deer's destination to make it move towards to the cat.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
