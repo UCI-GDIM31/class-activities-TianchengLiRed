@@ -9,8 +9,8 @@ using UnityEngine.UIElements;
 // If you copied the class declaration from CatW5, you'd only need to change one thing...
 public class DeerW5: MonoBehaviour
 {
-    public NavMeshAgent agent;
-    public Transform target;
+    [SerializeField] private NavMeshAgent agent;
+    [SerializeField] private Transform target;
     
 
     private void Start()
