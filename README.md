@@ -17,6 +17,12 @@ tables 9 i think the parameter(input) is int whihch is about your currentfriends
 line5 is to set a value of new float variable _movespeed to 1.0f;
 line 22 is calling an algorithm achieve the change of value of translation;
 line 25 is calling a new method and update new value of translation to transform method which represent object's current location to change it current location and make it move.
+
+### W5
+question: Can we make the movement curvy while we transform vectors?
+answer: Yes, but to achieve curvy movement we need to use more extended code. transform() only achieve straight movement.
+for example, using bezier to create more point object required to achieve while they are moving.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
