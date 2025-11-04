@@ -25,6 +25,32 @@ for example, using bezier to create more point object required to achieve while 
 
 plan: Deer has component of NavMeshAgent use to find way in terrain, use Getcomponent<> to set NavmeshAgent to NevMeshAgent agent variable so that i can use it on Start() then use agent.Setdesintation to set a destination for deer which is transform target variable set his position to Deer's destination to make it move towards to the cat.
 
+### W6
+link: https://docs.google.com/document/d/1I9v9DLgH_h1Npt-SvcE6Rrcdn8rclMwmf5H-zmU4f14/edit?tab=t.0
+Unity engine
+Editor – Week 1 In class activity
+Platform 
+Build =>(activity#1,How to build for Web and submit on Itch.io)
+Scene 
+2d/3d
+camera
+GameObjects – Explained a bit in Week 1 in class activity
+Components
+Navmesh =>(activity #5, minigame#5)(week 5)
+Transform
+Animator
+Hierarchy 
+Collider – Week 4 Slides
+Script
+Terrian =>(Week 5)
+
+plan: the class need one float _speed as speed of bat
+and a transform _playerPosition as player current position.
+the class neede Update()method to make bat move toward player gradually, and chase class to start chase and a stop class to stop the chase
+chase class to start provide players location to make them move on Update()class
+Update class to move towards player
+stop class to stop provide location and stop chase
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
