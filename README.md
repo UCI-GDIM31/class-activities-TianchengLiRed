@@ -50,6 +50,13 @@ the class neede Update()method to make bat move toward player gradually, and cha
 chase class to start provide players location to make them move on Update()class
 Update class to move towards player
 stop class to stop provide location and stop chase
+### W7
+https://docs.google.com/document/d/1pVQF8OAxJPUS-FvcqORq1R6zN29-Wx7oRm__EkzzC70/edit?usp=sharing
+
+working on environment and basic simple game idea.
+
+step2: on the step two, using the code transform.position += movement * Vector3.forward * _moveSpeed * Time.deltaTime; is incorrect because the direction wont change while muskrat rotate they always use global direciton of xyz so no matter how you rotate muskrat only move in one direction which is global x direction.
+so you have to change Vector3.forward to transform.forward change it to muskrat's local direction so that it can change move direction while muskrat rotate, muskrat will always walk forward to where it facing.
 
 ## Open-Source Assets
 ### W1
