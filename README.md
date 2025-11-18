@@ -58,6 +58,10 @@ working on environment and basic simple game idea.
 step2: on the step two, using the code transform.position += movement * Vector3.forward * _moveSpeed * Time.deltaTime; is incorrect because the direction wont change while muskrat rotate they always use global direciton of xyz so no matter how you rotate muskrat only move in one direction which is global x direction.
 so you have to change Vector3.forward to transform.forward change it to muskrat's local direction so that it can change move direction while muskrat rotate, muskrat will always walk forward to where it facing.
 
+### W8
+https://docs.google.com/document/d/16E7MYeKCIkKJmTZuHvnYLj52NwDItoDtaQSqPY_kFnM/edit?usp=sharing
+
+worked on UI and plan
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
